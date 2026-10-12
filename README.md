@@ -10,14 +10,13 @@ Este repositório só tem texto traduzido. O site é montado no repositório do 
 | --- | --- |
 | `strings.json` | Os textos das páginas e dos componentes do site (menus, botões, landing, doações). Mesmo formato de `site/src/i18n/en.ts` do repositório do plugin; o que faltar aparece em inglês. |
 | `docs/<grupo>/<página>.md` | A documentação: mesmo caminho e nome da página em inglês em `site/src/content/docs/`. |
-| `GLOSSARIO.md` | Os termos usados, iguais no site, na documentação e no plugin. |
-| `assets/screenshots/` | (em breve) Screenshots da interface em português, com os mesmos nomes dos em inglês. |
-| `languages/` | (em breve) A tradução do plugin, `exporter-importer-z-pt_BR.po`. |
+| `assets/screenshots/` | Screenshots da interface em português, com os mesmos nomes dos em inglês (`npm run screenshots -- --locale pt-br=…` no repositório do plugin). |
+| `languages/exporter-importer-z-pt_BR.po` | A tradução do plugin, a partir do `.pot` do repositório do plugin. |
 
 ## Como traduzir uma página
 
 1. Copie a página em inglês de `site/src/content/docs/<grupo>/<página>.md` para `docs/<grupo>/<página>.md`.
-2. Traduza `title`, `description` e o texto, seguindo o `GLOSSARIO.md`. Não mude código, nomes de arquivos, URLs, alvos de links nem caminhos de imagens.
+2. Traduza `title`, `description` e o texto, seguindo o [glossário da comunidade WordPress Brasil](https://translate.wordpress.org/locale/pt-br/default/glossary/) e os textos da interface do plugin como estão em `languages/exporter-importer-z-pt_BR.po`. Não mude código, nomes de arquivos, URLs, alvos de links nem caminhos de imagens.
 3. Em `translatedFrom`, ponha o commit do repositório do plugin de onde a página em inglês foi copiada.
 
 Quando a página em inglês muda depois desse commit, o site mostra um aviso de que a tradução está desatualizada. Atualize o texto e o `translatedFrom`. Uma página que ainda não existe aqui aparece em inglês, com um link para traduzi-la.

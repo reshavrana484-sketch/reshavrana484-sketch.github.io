@@ -1,37 +1,37 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.037
+00:00:00.000 --> 00:00:02.964
 Leve seu conteúdo WordPress. Não a bagunça.
 
 2
-00:00:03.045 --> 00:00:15.917
+00:00:02.964 --> 00:00:12.941
 Escolha exatamente o que vai: a página inicial e as configurações que vão com ela.
 
 3
-00:00:15.919 --> 00:00:21.456
+00:00:12.944 --> 00:00:18.253
 Um arquivo só, com o conteúdo, as imagens e as configurações.
 
 4
-00:00:21.456 --> 00:00:31.224
+00:00:18.253 --> 00:00:27.198
 Em outro site, o Importador do WordPress que você já conhece recebe o arquivo.
 
 5
-00:00:31.224 --> 00:00:36.706
+00:00:27.198 --> 00:00:32.657
 A página inicial continua sendo a página inicial — com as imagens. Sem buscar e substituir.
 
 6
-00:00:36.706 --> 00:00:47.440
+00:00:32.657 --> 00:00:43.388
 Ou o site inteiro num .zip do WordPress Playground — uma cópia feita em localhost abre no playground.wordpress.net.
 
 7
-00:00:47.440 --> 00:00:54.840
+00:00:43.388 --> 00:00:50.698
 Ou rode offline, com um comando.
 
 8
-00:00:54.840 --> 00:01:01.178
+00:00:50.698 --> 00:00:56.992
 Feito para agentes de IA: cada exportação, importação e configuração é uma ability.
 
 9
-00:01:01.179 --> 00:01:05.309
+00:00:56.992 --> 00:01:01.127
 Gratuito e de código aberto — eizport.github.io · Apoie: apoia.se/eizport

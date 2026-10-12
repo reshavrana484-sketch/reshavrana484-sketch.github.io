@@ -1093,3 +1093,11 @@ msgstr "O arquivo .wxrz está danificado ou incompleto."
 #, php-format
 msgid "The .wxrz file expands to more than %s."
 msgstr "O arquivo .wxrz descompactado passa de %s."
+
+#: includes/import.php:444
+msgid "Choose file"
+msgstr "Escolher arquivo"
+
+#: includes/import.php:445
+msgid "Change file"
+msgstr "Alterar arquivo"

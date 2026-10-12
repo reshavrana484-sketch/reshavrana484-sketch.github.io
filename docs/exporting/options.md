@@ -10,7 +10,7 @@ A linha **Opções** exporta as configurações do site num `options.json` dentr
 
 ## Três formas de escolher
 
-- **Uma a uma** — todas as opções que o site tem (busca, páginas), cada uma com o tamanho e um selo *IDs remapeados na importação* quando guarda um ID de post.
+- **Uma a uma** — todas as opções que o site tem (pesquisa, páginas), cada uma com o tamanho e um selo *IDs remapeados na importação* quando guarda um ID de post.
 - **Por grupo** — filtre o painel por um grupo e exporte-o: **Básicas** (sugeridas), Leitura, Geral, Links permanentes, Discussão, Mídia, Privacidade, Personalizações do tema, Páginas do WooCommerce. Um grupo é resolvido quando o arquivo é gerado, então acompanha o tema ativo.
 - **Todas** — todas as opções que podem ser exportadas.
 

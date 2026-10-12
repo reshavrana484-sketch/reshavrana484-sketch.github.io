@@ -34,4 +34,4 @@ As cópias feitas pela tela Exportar ficam listadas em **Configurações → Exp
 | URLs dos anexos | Os arquivos vêm do pacote; o importador cria os anexos e os tamanhos de imagem como sempre |
 | `post_content/<slug>.html` | Devolvido ao conteúdo do item |
 | `options.json` | Definido no final; as opções listadas em `post_ids` recebem o ID do post importado |
-| Produtos e suas variações, páginas e suas filhas | Importados com seus ascendentes, como faz o Importador do WordPress |
+| Produtos e suas variações, páginas e suas descendentes | Importados com seus ascendentes, como faz o Importador do WordPress |

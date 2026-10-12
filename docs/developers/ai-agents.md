@@ -35,7 +35,7 @@ Cada ferramenta traz a **descrição**, o **esquema de entrada** (tipos, enums, 
 - **destrutivas** — `delete-copies`, `clear-export-defaults`: um agente bem-comportado pergunta antes de chamá-las;
 - **idempotentes** — chamar de novo não muda mais nada.
 
-Os erros voltam como códigos com que um agente pode agir: `eizport_invalid_type` (um tipo de post que não pode ser exportado), `eizport_invalid_options` (uma opção que nunca é exportada), `eizport_invalid_blueprint` (um tema ou plugin não instalado), `eizport_export_unavailable` (uma exportação por requisição: chame de novo).
+Os erros voltam como códigos com que um agente pode agir: `eizport_invalid_type` (um tipo de post que não pode ser exportado), `eizport_invalid_options` (uma opção que nunca é exportada), `eizport_invalid_blueprint` (um tema ou plugin não instalado), `eizport_export_unavailable` (uma exportação por solicitação: chame de novo).
 
 ## Segurança embutida
 
@@ -50,6 +50,6 @@ Esta documentação também é escrita para agentes:
 
 - [`/llms.txt`](https://eizport.github.io/llms.txt) — um índice de todas as páginas, com descrições, apontando para as versões em Markdown;
 - [`/llms-full.txt`](https://eizport.github.io/llms-full.txt) — a documentação inteira num só arquivo;
-- cada página em Markdown — a mesma URL terminando em `.md` (veja “Ver como Markdown” no fim de cada página).
+- cada página em Markdown — o mesmo URL terminando em `.md` (veja “Ver em Markdown” na parte inferior de cada página).
 
 Aponte seu agente para o `llms.txt` e ele conhece o plugin antes da primeira chamada.

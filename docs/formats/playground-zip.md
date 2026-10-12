@@ -16,7 +16,7 @@ npx @wp-playground/cli@latest server --blueprint=./site.zip
 
 Ou abra o link dele no playground.wordpress.net (nova tela: a ação **Abrir no Playground** em [Cópias](../../settings/copies/); tela clássica: *Manter uma cópia para abrir por link*). A cópia é servida com os cabeçalhos CORS de que o Playground precisa.
 
-**Mesmo de um servidor local.** O Playground roda no seu navegador, então uma cópia feita no WordPress Studio ou em qualquer site `localhost` abre no playground.wordpress.net sem ser enviada a lugar nenhum — o navegador a busca da sua máquina (o link só funciona no seu computador).
+**Mesmo de um servidor local.** O Playground roda no seu navegador, então uma cópia feita no WordPress Studio ou em qualquer site `localhost` abre no playground.wordpress.net sem ser enviada a lugar nenhum — o navegador a coleta da sua máquina (o link só funciona no seu computador).
 
 ## Temas e plugins
 
@@ -39,7 +39,7 @@ plugins/<slug>.zip                 each plugin chosen
 
 1. Instala os temas (os ascendentes primeiro) e ativa o tema ativo, se escolhido, senão o primeiro.
 2. Instala e ativa os plugins.
-3. Grava os arquivos de mídia e de conteúdo e dois plugins obrigatórios temporários: um responde aos downloads de mídia do importador com os arquivos e devolve cada `.html` ao seu post (`wp_import_post_data_raw`); o outro define as opções quando a importação termina, com os IDs remapeados.
+3. Grava os arquivos de mídia e de conteúdo e dois plugins obrigatórios temporários: um responde com os arquivos quando o importador baixa a mídia e devolve cada `.html` ao seu post (`wp_import_post_data_raw`); o outro define as opções quando a importação termina, com os IDs remapeados.
 4. Executa `importWxr` (o próprio Playground instala o Importador do WordPress).
 5. Remove os plugins e arquivos temporários.
 

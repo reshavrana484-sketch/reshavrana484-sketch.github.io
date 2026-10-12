@@ -16,7 +16,7 @@ A configuração é o padrão. A habilidade [`eizport/export`](../../developers/
 
 ## Como é gravado e lido
 
-O plugin grava o pacote tar e o transforma num `.zip` (com `ZipArchive`, ou o PclZip do core) e, na importação, transforma o `.zip` de volta num tar antes de lê-lo — um só caminho de código para os dois, com as mesmas verificações:
+O plugin grava o pacote tar e o transforma num `.zip` (com `ZipArchive`, ou o PclZip dos arquivos básicos do WordPress) e, na importação, transforma o `.zip` de volta num tar antes de lê-lo — um só caminho de código para os dois, com as mesmas verificações:
 
 - só as entradas do pacote são aproveitadas (o manifesto, um `.xml` no nível de cima, `options.json`, `post_content/*.html`, arquivos seguros de `uploads/`);
 - o tamanho descompactado conta para o mesmo limite de 512 MB.

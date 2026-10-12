@@ -8,10 +8,10 @@ translatedFrom: "3a67fd83eec60da9d979d8b0478da0fa6693c408"
 
 ## O que ela adiciona
 
-- **Vários tipos de conteúdo:** a escolha única do core vira caixas de seleção (“Todo o conteúdo” continua).
+- **Vários tipos de conteúdo:** a escolha única do WordPress vira caixas de seleção (“Todo o conteúdo” continua).
 - **Por filtros ou por seleção** em cada tipo: os filtros do WordPress para posts, páginas e mídia; o mesmo tipo de filtro para produtos e tipos de post personalizados (datas, status, autor, cada taxonomia); ou uma lista de seleção (uma árvore para páginas) com um campo para filtrá-la.
 - **Pacote (.wxrz ou .zip):** nome do arquivo, arquivos de mídia, configurações (grupos, página inicial e página de posts, outras opções pelo nome), um blueprint do Playground com temas e plugins e uma cópia temporária para abrir por link em playground.wordpress.net.
-- **Salvar estas escolhas como meu padrão**, e uma tela que já começa com elas.
+- **Salvar estas escolhas como meu padrão**, e uma tela que já inicia com elas.
 
 ## No celular
 
@@ -21,4 +21,4 @@ Cada caixa de seleção e cada botão de opção é uma linha de pelo menos 40px
 
 ## Sem JavaScript
 
-As caixas de seleção de tipo continuam sendo os botões de opção do core e um tipo é exportado, ainda por filtros ou por seleção.
+As caixas de seleção de tipo continuam sendo os botões de opção do WordPress e um tipo é exportado, ainda por filtros ou por seleção.

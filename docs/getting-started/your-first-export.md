@@ -24,7 +24,7 @@ O rodapé mostra as configurações do arquivo:
 
 - **Formato** mostra **WXRZ**: um pacote, porque arquivos de mídia e configurações vão junto.
 - **Arquivos de mídia** está ativado: as imagens anexadas à página, a imagem destacada e as imagens do conteúdo vão dentro.
-- **Nome do arquivo** está vazio: o arquivo recebe o nome de sempre do WordPress, mostrado como placeholder.
+- **Nome do arquivo** está vazio: o arquivo recebe o nome de sempre do WordPress, mostrado como texto de marcação.
 
 ## 4. Exporte
 
@@ -34,4 +34,4 @@ Clique em **Exportar**. O arquivo é gravado como uma [cópia](../../settings/co
 
 No outro site, vá em **Ferramentas → Importar → WordPress**, envie o `.wxrz` e execute o importador como sempre. A página, as imagens e a configuração de página inicial chegam juntas — com o ID da nova página em `page_on_front`.
 
-> O site antigo não precisa estar no ar: as imagens vêm do pacote.
+> O site antigo não precisa estar on-line: as imagens vêm do pacote.

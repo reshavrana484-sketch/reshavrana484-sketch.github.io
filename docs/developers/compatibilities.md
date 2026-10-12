@@ -8,7 +8,7 @@ O suporte a outro plugin é uma **compatibilidade**: um arquivo que usa só os [
 
 ## A compatibilidade com o WooCommerce
 
-`includes/compat/woocommerce.php`, registrada em `eizport_register_compat` quando `WooCommerce` existe:
+`includes/compat/woocommerce.php`, cadastrada em `eizport_register_compat` quando `WooCommerce` existe:
 
 | Hook | Adiciona |
 | --- | --- |
@@ -42,4 +42,4 @@ remove_action( 'eizport_register_compat', 'ExporterImporterZ\Compat\WooCommerce\
 
 ## Testes
 
-Teste as funções da compatibilidade diretamente, para que os testes passem sem o outro plugin instalado, e verifique que ela só se registra quando esse plugin está ativo.
+Teste as funções da compatibilidade diretamente, para que os testes passem sem o outro plugin instalado, e verifique que ela só se cadastra quando esse plugin está ativo.

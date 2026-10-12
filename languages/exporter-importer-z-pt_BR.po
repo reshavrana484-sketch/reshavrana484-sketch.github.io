@@ -171,7 +171,7 @@ msgid "Export the filtered items"
 msgstr "Exportar os itens filtrados"
 
 msgid "Check items to export only those, or filter the list to export what matches the filters (and their children, like product variations). Attachments and featured images come along."
-msgstr "Marque itens para exportar só eles, ou filtre a lista para exportar o que corresponde aos filtros (e seus filhos, como as variações de produtos). Os anexos e as imagens destacadas vêm junto."
+msgstr "Marque itens para exportar só eles, ou filtre a lista para exportar o que corresponde aos filtros (e seus descendentes, como as variações de produtos). Os anexos e as imagens destacadas vêm junto."
 
 msgid "Select"
 msgstr "Selecionar"
@@ -340,7 +340,7 @@ msgid "Export all"
 msgstr "Exportar tudo"
 
 msgid "Check items to export only those, or filter the list to export what matches (with their children, like product variations)."
-msgstr "Marque itens para exportar só eles, ou filtre a lista para exportar o que corresponde (com seus filhos, como as variações de produtos)."
+msgstr "Marque itens para exportar só eles, ou filtre a lista para exportar o que corresponde (com seus descendentes, como as variações de produtos)."
 
 msgid "WXR bundle .wxrz"
 msgstr "Pacote WXR .wxrz"
@@ -384,7 +384,7 @@ msgid "Only attached media"
 msgstr "Só mídia anexada"
 
 msgid "Items exported bring their attached media and featured images, and also the media they use without being attached: images, galleries, covers and files in their content (and product galleries). On, only the attached ones, like WordPress."
-msgstr "Os itens exportados trazem sua mídia anexada e suas imagens destacadas, e também a mídia que usam sem estar anexada: imagens, galerias, capas e arquivos no conteúdo (e galerias de produtos). Ativado, só a anexada, como faz o WordPress."
+msgstr "Os itens exportados trazem sua mídia anexada e suas imagens destacadas, e também a mídia que usam sem estar anexada: imagens, galerias, coberturas e arquivos no conteúdo (e galerias de produtos). Ativado, só a anexada, como faz o WordPress."
 
 msgid "Bundle as .zip"
 msgstr "Pacote como .zip"
@@ -405,7 +405,7 @@ msgid "Linked settings"
 msgstr "Configurações vinculadas"
 
 msgid "Settings that point to the items exported (homepage, posts page, privacy policy page, site icon, pages plugins register like WooCommerce’s shop and cart). When items are checked, they show in the Options row at once; on export, they also come with items exported by filters or with all content."
-msgstr "Configurações que apontam para os itens exportados (página inicial, página de posts, página de política de privacidade, ícone do site, páginas que plugins registram, como a loja e o carrinho do WooCommerce). Quando itens são marcados, elas aparecem na hora na linha Opções; na exportação, também vêm com itens exportados por filtros ou com todo o conteúdo."
+msgstr "Configurações que apontam para os itens exportados (página inicial, página de posts, página de política de privacidade, ícone do site, páginas que plugins cadastram, como a loja e o carrinho do WooCommerce). Quando itens são marcados, elas aparecem na hora na linha Opções; na exportação, também vêm com itens exportados por filtros ou com todo o conteúdo."
 
 msgid "Settings saved."
 msgstr "Configurações salvas."
@@ -423,7 +423,7 @@ msgid "Export screen"
 msgstr "Tela Exportar"
 
 msgid "\"Save as default\" on the Export screens keeps the choices, to start with them next time."
-msgstr "\"Salvar como padrão\" nas telas Exportar guarda as escolhas, para começar com elas da próxima vez."
+msgstr "\"Salvar como padrão\" nas telas Exportar guarda as escolhas, para iniciar com elas da próxima vez."
 
 msgid "Exports kept on this site, to open by link or import."
 msgstr "Exportações guardadas neste site, para abrir por link ou importar."
@@ -472,7 +472,7 @@ msgstr "Obter itens"
 
 #: includes/abilities.php:122
 msgid "Lists a page of one content type's items (pages, posts, products, media…) that can be exported: searched, sorted and filtered like eizport/export filters them. Use the IDs in eizport/export \"types\"."
-msgstr "Lista uma página dos itens de um tipo de conteúdo (páginas, posts, produtos, mídia…) que podem ser exportados: buscados, ordenados e filtrados como o eizport/export os filtra. Use os IDs em \"types\" do eizport/export."
+msgstr "Lista uma página dos itens de um tipo de conteúdo (páginas, posts, produtos, mídia…) que podem ser exportados: pesquisados, ordenados e filtrados como o eizport/export os filtra. Use os IDs em \"types\" do eizport/export."
 
 #: includes/abilities.php:144
 msgid "The item's roles on the site, from the options pointing to it (eizport_linked_options)."
@@ -504,7 +504,7 @@ msgstr "Obter cópias"
 
 #: includes/abilities.php:257
 msgid "Lists the export copies kept on this site (.wxrz bundles and Playground .zip files), with their download link, Playground link and expiry."
-msgstr "Lista as cópias de exportação guardadas neste site (pacotes .wxrz e arquivos .zip do Playground), com o link de download, o link do Playground e a validade."
+msgstr "Lista as cópias de exportação guardadas neste site (pacotes .wxrz e arquivos .zip do Playground), com o link para baixar, o link do Playground e a validade."
 
 #: includes/abilities.php:283
 msgid "Delete copies"
@@ -568,7 +568,7 @@ msgstr "Obter padrões de exportação"
 
 #: includes/abilities.php:399
 msgid "The export choices saved as default (the current user's, or the site's, as Settings → Saved defaults says), which the Export screens start with; empty when none."
-msgstr "As escolhas de exportação salvas como padrão (as do usuário atual ou as do site, conforme Configurações → Padrões salvos), com as quais as telas Exportar começam; vazio quando não há nenhuma."
+msgstr "As escolhas de exportação salvas como padrão (as do usuário atual ou as do site, conforme Configurações → Padrões salvos), com as quais as telas Exportar iniciam; vazio quando não há nenhuma."
 
 #: includes/abilities.php:422
 msgid "Save export defaults"
@@ -584,7 +584,7 @@ msgstr "Limpar padrões de exportação"
 
 #: includes/abilities.php:451
 msgid "Forgets the export choices saved as default: the Export screens start empty again."
-msgstr "Esquece as escolhas de exportação salvas como padrão: as telas Exportar voltam a começar vazias."
+msgstr "Esquece as escolhas de exportação salvas como padrão: as telas Exportar voltam a iniciar vazias."
 
 #: includes/abilities.php:475
 msgid "Update settings"
@@ -620,7 +620,7 @@ msgstr "Tipo de post => o que exportar dele: \"ids\" ou \"filters\". Omita para 
 
 #: includes/abilities.php:671
 msgid "With types: also the media the exported items use in their content without being attached (images, galleries, covers, files). Default: true, unless the \"Only attached media\" setting is on."
-msgstr "Com types: também a mídia que os itens exportados usam no conteúdo sem estar anexada (imagens, galerias, capas, arquivos). Padrão: true, a menos que a configuração \"Só mídia anexada\" esteja ativada."
+msgstr "Com types: também a mídia que os itens exportados usam no conteúdo sem estar anexada (imagens, galerias, coberturas, arquivos). Padrão: true, a menos que a configuração \"Só mídia anexada\" esteja ativada."
 
 #: includes/abilities.php:675
 msgid "The bundle as a plain .zip instead of a .wxrz (gzipped tar), with the same contents. Default: the \"Bundle as .zip\" setting."
@@ -628,7 +628,7 @@ msgstr "O pacote como um .zip comum em vez de um .wxrz (tar compactado com gzip)
 
 #: includes/abilities.php:679
 msgid "A .wxrz bundle (default true). False: core's plain WXR .xml, without media, content files or settings."
-msgstr "Um pacote .wxrz (padrão true). False: o WXR .xml simples do core, sem mídia, arquivos de conteúdo ou configurações."
+msgstr "Um pacote .wxrz (padrão true). False: o WXR .xml simples dos arquivos básicos do WordPress, sem mídia, arquivos de conteúdo ou configurações."
 
 #: includes/abilities.php:683
 msgid "Include the attachment files. Default true."
@@ -788,7 +788,7 @@ msgstr "Incluir um blueprint do Playground"
 
 #: includes/export.php:174
 msgid "The download becomes a .zip with blueprint.json, the WXR (.xml) and, as checked above, the attachment files and the content as .html files: run it with WordPress Playground to get a site with the exported content."
-msgstr "O download vira um .zip com blueprint.json, o WXR (.xml) e, conforme marcado acima, os arquivos dos anexos e o conteúdo como arquivos .html: execute-o com o WordPress Playground para ter um site com o conteúdo exportado."
+msgstr "O arquivo baixado vira um .zip com blueprint.json, o WXR (.xml) e, conforme marcado acima, os arquivos dos anexos e o conteúdo como arquivos .html: execute-o com o WordPress Playground para ter um site com o conteúdo exportado."
 
 #. translators: %s: how long the copy lasts, like "1 day" or "until deleted".
 #: includes/export.php:184
@@ -962,7 +962,7 @@ msgstr "Páginas, mídia e outros itens para os quais as configurações apontam
 
 #: includes/runner.php:37
 msgid "An export already ran in this request: run each export in its own request."
-msgstr "Uma exportação já foi executada nesta requisição: execute cada exportação na sua própria requisição."
+msgstr "Uma exportação já foi executada nesta solicitação: execute cada exportação na sua própria solicitação."
 
 #: includes/runner.php:80
 msgid "The export could not be written to a file."
@@ -1000,7 +1000,7 @@ msgstr "Filtrar a lista"
 
 #: includes/selection.php:293
 msgid "Only the checked items are exported, with their attachments and their children of other types (like a product's variations)."
-msgstr "Só os itens marcados são exportados, com seus anexos e seus filhos de outros tipos (como as variações de um produto)."
+msgstr "Só os itens marcados são exportados, com seus anexos e seus descendentes de outros tipos (como as variações de um produto)."
 
 #. translators: %d: number of items listed.
 #: includes/selection.php:297

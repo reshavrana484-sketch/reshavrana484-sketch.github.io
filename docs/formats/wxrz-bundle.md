@@ -46,7 +46,7 @@ uploads/2026/10/photo.jpg          optional: media files, as in wp-content/uploa
 | `format`, `version` | Sempre `"wxrz"` e `1` para esta estrutura; um leitor recusa outras versões |
 | `generator`, `site`, `created` | Quem fez, de onde, quando (informativo) |
 | `wxr` | O nome da entrada do WXR (a primeira é lida) |
-| `files` | URL do anexo no WXR → entrada no arquivo. O download dessa URL pelo importador é respondido com a entrada |
+| `files` | URL do anexo no WXR → entrada no arquivo. Quando o importador baixa esse URL, recebe a entrada como resposta |
 | `options` | A entrada do arquivo de opções, quando há uma |
 | `post_content` | Arquivo de conteúdo → o item a que pertence: `id`, `type` e `slug` originais |
 

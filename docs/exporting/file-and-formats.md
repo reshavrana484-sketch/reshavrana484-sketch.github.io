@@ -4,7 +4,7 @@ description: "Escolha entre o WXR simples do WordPress, um pacote .wxrz ou .zip 
 translatedFrom: "3a67fd83eec60da9d979d8b0478da0fa6693c408"
 ---
 
-O seletor **Formato** do rodapé tem duas opções; o nome da primeira acompanha o que vai no arquivo.
+O botão de alternância **Formato** do rodapé tem duas opções; o nome da primeira acompanha o que vai no arquivo.
 
 | Aparece como | Arquivo | Quando | Contém |
 | --- | --- | --- | --- |
@@ -15,7 +15,7 @@ O seletor **Formato** do rodapé tem duas opções; o nome da primeira acompanha
 
 ## Nome do arquivo
 
-Deixe vazio para o nome de sempre do WordPress, `<site name>.WordPress.<date>` — o placeholder mostra o nome exato de hoje. Um nome digitado é sanitizado e a extensão é adicionada.
+Deixe vazio para o nome de sempre do WordPress, `<site name>.WordPress.<date>` — o texto de marcação mostra o nome exato de hoje. Um nome digitado é sanitizado e a extensão é adicionada.
 
 ## Conteúdo como arquivos .html
 

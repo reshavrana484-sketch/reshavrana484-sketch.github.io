@@ -17,7 +17,7 @@ curl -u admin:APP_PASSWORD -X POST \
   -d '{"input":{"types":{"page":{"ids":[43]}},"options":{"groups":["basics"]}}}'
 ```
 
-Habilidades somente leitura rodam com `GET` e a entrada na query string.
+Habilidades somente leitura rodam com `GET` e a entrada na string de consulta.
 
 **PHP**:
 
@@ -35,7 +35,7 @@ if ( ! is_wp_error( $copy ) ) {
 
 **MCP**: com o [MCP adapter](https://github.com/WordPress/mcp-adapter), cada habilidade é uma ferramenta que um agente de IA pode chamar.
 
-> Roda uma exportação por requisição: `export_wp()` define suas funções auxiliares dentro de si mesma. Uma segunda `eizport/export` na mesma requisição retorna `eizport_export_unavailable`.
+> Roda uma exportação por solicitação: `export_wp()` define suas funções auxiliares dentro de si mesma. Uma segunda `eizport/export` na mesma solicitação retorna `eizport_export_unavailable`.
 
 ## Visão geral
 

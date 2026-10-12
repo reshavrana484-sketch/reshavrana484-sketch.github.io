@@ -6,7 +6,7 @@ translatedFrom: "3a67fd83eec60da9d979d8b0478da0fa6693c408"
 
 ## Pelo zip da versão
 
-1. Baixe a versão mais recente: [`exporter-importer-z.zip`](https://github.com/eizport/exporter-importer-z/releases/latest/download/exporter-importer-z.zip). A URL sempre aponta para a versão mais nova.
+1. Baixe a versão mais recente: [`exporter-importer-z.zip`](https://github.com/eizport/exporter-importer-z/releases/latest/download/exporter-importer-z.zip). O URL sempre aponta para a versão mais recente.
 2. No WordPress, vá em **Plugins → Adicionar plugin → Enviar plugin**, escolha o arquivo e clique em **Instalar agora**.
 3. **Ative** o plugin. Ferramentas → Exportar agora abre a nova tela Exportar.
 
@@ -28,10 +28,10 @@ Importar exige o **Importador do WordPress**. Em **Ferramentas → Importar**, c
 
 | Requisito | Por quê |
 | --- | --- |
-| WordPress 7.0+ | As telas Exportar e Configurações são construídas com `@wordpress/build` e iniciadas pelo `@wordpress/boot` do core. |
+| WordPress 7.0+ | As telas Exportar e Configurações são construídas com `@wordpress/build` e iniciadas pelo `@wordpress/boot` dos arquivos básicos do WordPress. |
 | PHP 7.4+ | O mínimo do plugin. |
 | `zlib` | Os pacotes `.wxrz` são arquivos tar compactados com gzip. |
-| `ZipArchive` (ou PclZip) | Pacotes `.zip` e arquivos `.zip` do Playground. O PclZip do core é a alternativa. |
+| `ZipArchive` (ou PclZip) | Pacotes `.zip` e arquivos `.zip` do Playground. O PclZip dos arquivos básicos do WordPress é a contingência. |
 | Abilities API | Faz parte do WordPress 6.9+; as telas usam as habilidades do plugin. |
 
 ## Desinstalação

@@ -4,7 +4,7 @@ description: "Salve as escolhas da tela Exportar como padrão, por usuário ou p
 translatedFrom: "3a67fd83eec60da9d979d8b0478da0fa6693c408"
 ---
 
-**Salvar como padrão** guarda tudo o que você escolheu: tipos de conteúdo com seus itens ou filtros, opções, formato, nome do arquivo, arquivos de mídia e os temas e plugins do Playground. Uma nova sessão do navegador começa com eles.
+**Salvar como padrão** guarda tudo o que você escolheu: tipos de conteúdo com seus itens ou filtros, opções, formato, nome do arquivo, arquivos de mídia e os temas e plugins do Playground. Uma nova sessão do navegador inicia com eles.
 
 ## De quem são os padrões
 
@@ -16,7 +16,7 @@ translatedFrom: "3a67fd83eec60da9d979d8b0478da0fa6693c408"
 ## As duas telas
 
 - **Tela nova:** *Salvar como padrão* no cabeçalho (o aviso oferece *Limpar*).
-- **Tela clássica:** marque *Salvar estas escolhas como meu padrão* antes de baixar. A tela clássica também já começa preenchida com os padrões.
+- **Tela clássica:** marque *Salvar estas escolhas como meu padrão* antes de baixar. A tela clássica também já inicia preenchida com os padrões.
 
 ## Limpar
 

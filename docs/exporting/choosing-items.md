@@ -1,6 +1,6 @@
 ---
 title: "Escolher itens"
-description: "Por filtros ou por seleção, por tipo de conteúdo, no painel lateral; filhos, anexos e funções."
+description: "Por filtros ou por seleção, por tipo de conteúdo, no painel lateral; descendentes, anexos e funções."
 translatedFrom: "3a67fd83eec60da9d979d8b0478da0fa6693c408"
 ---
 
@@ -25,12 +25,12 @@ Sem nada marcado, os filtros do painel decidem: status, autor, datas e cada taxo
 | Qualquer item | Sua mídia anexada e sua imagem destacada (o WordPress faz isso) |
 | Qualquer item | A mídia usada no conteúdo sem estar anexada ([mídia](../media/)) |
 | Um produto | Suas variações e suas avaliações |
-| Uma página | Suas páginas filhas só se também corresponderem — selecione ou filtre-as |
+| Uma página | Suas páginas descendentes só se também corresponderem — selecione ou filtre-as |
 | Um item com uma função | As configurações que apontam para ele ([configurações vinculadas](../options/#linked-settings)) |
 
 ## Funções
 
-Itens para os quais uma configuração aponta mostram um selo: **Página inicial**, **Página de posts**, **Página de política de privacidade**, **Ícone do site** e as páginas que os plugins registram, como a **Página da loja**, a **Página do carrinho**, a **Página de finalização de compra**, a **Página Minha conta** e a **Página de termos e condições** do WooCommerce. Os plugins adicionam as suas com [`eizport_linked_options`](../../developers/hooks/#eizport_linked_options).
+Itens para os quais uma configuração aponta mostram um selo: **Página inicial**, **Página de posts**, **Página de política de privacidade**, **Ícone do site** e as páginas que os plugins cadastram, como a **Página da loja**, a **Página do carrinho**, a **Página de finalização de compra**, a **Página Minha conta** e a **Página de termos e condições** do WooCommerce. Os plugins adicionam as suas com [`eizport_linked_options`](../../developers/hooks/#eizport_linked_options).
 
 ## Limites
 

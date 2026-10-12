@@ -6,7 +6,7 @@ translatedFrom: "3a67fd83eec60da9d979d8b0478da0fa6693c408"
 
 ![Configurações → Exporter Importer Z → Cópias: um .wxrz, um pacote .zip e um .zip do Playground.](../../../assets/screenshots/settings-copies.webp)
 
-Toda exportação feita pela nova tela ou pela habilidade é guardada como cópia em `wp-content/uploads/eizport/tmp/`, listada como na biblioteca de mídia: busca, ordenação, filtro por formato.
+Toda exportação feita pela nova tela ou pela habilidade é guardada como cópia em `wp-content/uploads/eizport/tmp/`, listada como na biblioteca de mídia: pesquisa, ordenação, filtro por formato.
 
 ## Ações
 
@@ -24,8 +24,8 @@ O link de uma cópia é feito para ser compartilhado com o Playground ou com alg
 
 - **Um token como uma senha:** o nome termina num token aleatório de 16 caracteres (`site-w9bjZ9pyEWxC8VMf.zip`, de um gerador criptográfico), então o link não pode ser adivinhado.
 - **Servido pelo PHP, só até expirar:** o link passa pelo WordPress (`?eizport_playground=<name>`), que verifica a validade e envia os cabeçalhos CORS de que o Playground precisa.
-- **Fora dos buscadores:** a resposta traz `X-Robots-Tag: noindex, nofollow, noarchive`, e o `robots.txt` do site recebe regras `Disallow` para a pasta e os links das cópias.
-- **Sem acesso direto:** o `uploads/eizport/.htaccess` nega requisições diretas no Apache e no LiteSpeed, e toda pasta tem um `index.php`, então nada é listado. No nginx, o `.htaccess` não se aplica; negue `/wp-content/uploads/eizport/` na configuração do servidor para o mesmo efeito — o token, a validade e o robots.txt continuam protegendo os arquivos.
+- **Fora dos mecanismos de pesquisa:** a resposta traz `X-Robots-Tag: noindex, nofollow, noarchive`, e o `robots.txt` do site recebe regras `Disallow` para a pasta e os links das cópias.
+- **Sem acesso direto:** o `uploads/eizport/.htaccess` nega solicitações diretas no Apache e no LiteSpeed, e toda pasta tem um `index.php`, então nada é listado. No nginx, o `.htaccess` não se aplica; negue `/wp-content/uploads/eizport/` na configuração do servidor para o mesmo efeito — o token, a validade e o robots.txt continuam protegendo os arquivos.
 
 Não guarde cópias de conteúdo que precisa continuar privado.
 

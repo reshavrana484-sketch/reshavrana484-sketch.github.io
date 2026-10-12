@@ -9,19 +9,19 @@ translatedFrom: "3a67fd83eec60da9d979d8b0478da0fa6693c408"
 Quando você exporta **alguns** itens (não todo o conteúdo):
 
 1. **O WordPress** adiciona a mídia anexada a cada item (`post_parent`) e a imagem destacada (`_thumbnail_id`).
-2. **O plugin** também adiciona a mídia que os itens **usam no conteúdo sem estar anexada**: imagens, galerias, capas, arquivos, vídeo e áudio inseridos da biblioteca. Ele a encontra por:
-   - atributos de bloco: `"id"` (imagem, capa, arquivo, vídeo, áudio), `"mediaId"` (mídia e texto), `"ids"` (galeria);
+2. **O plugin** também adiciona a mídia que os itens **usam no conteúdo sem estar anexada**: imagens, galerias, coberturas, arquivos, vídeo e áudio inseridos da biblioteca. Ele a encontra por:
+   - atributos de bloco: `"id"` (imagem, cobertura, arquivo, vídeo, áudio), `"mediaId"` (mídia e texto), `"ids"` (galeria);
    - classes `wp-image-<id>` e o shortcode `[gallery ids="…"]`;
-   - URLs de upload, inclusive as redimensionadas (`-300x200`), por meio de `attachment_url_to_postid()`.
+   - URLs de arquivos enviados, inclusive os redimensionados (`-300x200`), por meio de `attachment_url_to_postid()`.
 3. **Plugins** adicionam mais com [`eizport_media_used`](../../developers/hooks/#eizport_media_used) — a compatibilidade com o WooCommerce adiciona as galerias de produtos.
 
 Desative a etapa 2 em **Configurações → Exportar → Só mídia anexada** ou, por exportação, com `media_used: false`.
 
 ## Arquivos de mídia no pacote
 
-**Arquivos de mídia** (ativado por padrão) coloca os arquivos de cada anexo exportado dentro do pacote, em `uploads/`, com as mesmas pastas do site antigo. Na importação, eles são servidos ao importador a partir do pacote, então nada é baixado e o site antigo pode estar fora do ar.
+**Arquivos de mídia** (ativado por padrão) coloca os arquivos de cada anexo exportado dentro do pacote, em `uploads/`, com as mesmas pastas do site antigo. Na importação, eles são servidos ao importador a partir do pacote, então nada é baixado e o site antigo pode estar off-line.
 
-Só entram os arquivos da pasta de uploads deste site; a mídia hospedada fora (uma CDN, S3) fica para o importador baixar, como sempre.
+Só entram os arquivos da pasta de envios deste site; a mídia hospedada fora (uma CDN, S3) fica para o importador baixar, como sempre.
 
 ## Exemplo
 

@@ -14,7 +14,7 @@
 		"menu": "Menu",
 		"docs": "Documentação",
 		"agents": "Agentes de IA",
-		"changelog": "Novidades",
+		"changelog": "Registro de alterações",
 		"support": "Apoie",
 		"github": "GitHub",
 		"language": "Idioma"
@@ -24,7 +24,7 @@
 		"product": "Produto",
 		"playground": "Experimentar no Playground",
 		"download": "Baixar",
-		"changelog": "Novidades",
+		"changelog": "Registro de alterações",
 		"docs": "Documentação",
 		"gettingStarted": "Primeiros passos",
 		"exporting": "Exportação",
@@ -41,7 +41,7 @@
 	"agents": {
 		"button": "Para agentes",
 		"install": "Copiar o comando de instalação do WP-CLI",
-		"llms": "Copiar a URL do llms.txt",
+		"llms": "Copiar o URL do llms.txt",
 		"docs": "Documentação para agentes de IA: habilidades por MCP",
 		"full": "Toda a documentação num arquivo só",
 		"chatgpt": "Perguntar ao ChatGPT",
@@ -90,8 +90,8 @@
 			"description": "Respostas sobre segurança, limites de tamanho, privacidade, cópias do Playground e onde os arquivos ficam."
 		},
 		"changelog": {
-			"title": "Novidades",
-			"description": "Cada versão do Exporter Importer Z e o que mudou nela, da mais nova para a mais antiga.",
+			"title": "Registro de alterações",
+			"description": "Cada versão do Exporter Importer Z e o que mudou nela, da mais recente para a mais antiga.",
 			"intro": "Baixe qualquer versão {releases}. A mais recente é a {version}.",
 			"releases": "nas versões do GitHub"
 		}
@@ -108,9 +108,9 @@
 		},
 		"agent": { "eyebrow": "Feito para agentes", "button": "Use com agentes de IA", "chat": "Um exemplo de conversa por MCP" },
 		"why": {
-			"eyebrow": "O meio-termo limpo",
+			"eyebrow": "O meio-termo simples",
 			"title": "Nem uma migração completa. Nem uma exportação crua.",
-			"lead": "Copiar o banco de dados inteiro arrasta transients, logs, sessões e tabelas de plugins que já se foram — e sobrescreve o site para onde você importa. A exportação do próprio WordPress deixa de fora os arquivos de mídia, as configurações e as imagens que o seu conteúdo usa. O Exporter Importer Z leva só o que você escolhe, e tudo de que isso depende.",
+			"lead": "Copiar o banco de dados inteiro arrasta transients, registros, sessões e tabelas de plugins que já se foram — e sobrescreve o site para onde você importa. A exportação do próprio WordPress deixa de fora os arquivos de mídia, as configurações e as imagens que o seu conteúdo usa. O Exporter Importer Z leva só o que você escolhe, e tudo de que isso depende.",
 			"caption": "Como o Exporter Importer Z se compara a uma migração completa do site e à exportação do WordPress"
 		},
 		"more": "Saiba mais: {topic}",
@@ -142,7 +142,7 @@
 		"devs": {
 			"eyebrow": "Para desenvolvedores e agentes de IA",
 			"title": "Automatize cada exportação e importação",
-			"lead": "Cada passo é uma habilidade da Abilities API do WordPress: chame por REST, pelo PHP ou pelo WP-CLI, ou entregue a um agente de IA por MCP. O seu plugin pode registrar as próprias páginas, configurações e mídia por meio de hooks.",
+			"lead": "Cada passo é uma habilidade da Abilities API do WordPress: chame por REST, pelo PHP ou pelo WP-CLI, ou entregue a um agente de IA por MCP. O seu plugin pode cadastrar as próprias páginas, configurações e mídia por meio de hooks.",
 			"rest": "Exportar uma página como pacote .zip, por REST",
 			"hook": "Dar um papel à página do seu plugin",
 			"abilities": "12 habilidades",
@@ -156,7 +156,7 @@
 	"landing": {
 		"hero": {
 			"title": "Leve o seu conteúdo do WordPress. Não a bagunça.",
-			"lead": "Escolha as páginas, os produtos ou os posts de que você precisa — ou só peça ao seu agente de IA. Eles chegam no outro site com suas imagens, suas configurações e sua página inicial: sem dump do banco de dados, sem imagens quebradas, sem buscar e substituir.",
+			"lead": "Escolha as páginas, os produtos ou os posts de que você precisa — ou só peça ao seu agente de IA. Eles chegam no outro site com suas imagens, suas configurações e sua página inicial: sem dump do banco de dados, sem imagens quebradas, sem pesquisar e substituir.",
 			"primary": "Experimente grátis no navegador",
 			"secondary": "Baixar grátis",
 			"note": "Gratuito e de código aberto. Sem conta, sem upsell, sem versão “pro”."
@@ -164,7 +164,7 @@
 		"pains": [
 			{
 				"title": "As imagens quebram depois da importação",
-				"text": "A exportação do WordPress só aponta para a sua mídia. O importador precisa baixar cada arquivo do site antigo — e, se ele estiver fora do ar, lento ou atrás de um login, ficam caixas cinza."
+				"text": "A exportação do WordPress só aponta para a sua mídia. O importador precisa baixar cada arquivo do site antigo — e, se ele estiver off-line, lento ou atrás de uma tela de acesso, ficam caixas cinza."
 			},
 			{
 				"title": "A página inicial some",
@@ -172,7 +172,7 @@
 			},
 			{
 				"title": "Plugins de migração trazem o lixo junto",
-				"text": "Copiar o banco de dados inteiro traz transients, logs, sessões e as tabelas de plugins que você apagou há anos — e sobrescreve o site para onde você estava importando."
+				"text": "Copiar o banco de dados inteiro traz transients, registros, sessões e as tabelas de plugins que você excluiu há anos — e sobrescreve o site para onde você estava importando."
 			}
 		],
 		"steps": [
@@ -215,7 +215,7 @@
 				"eyebrow": "Demonstrações em segundos",
 				"title": "Entregue um site inteiro funcionando num .zip",
 				"text": "Exporte um pacote do WordPress Playground com o seu conteúdo, a mídia dele, o tema e os plugins que você escolher — premium e personalizados também, não só os do diretório. O Playground roda no navegador, então até uma cópia feita no servidor local do seu notebook abre no playground.wordpress.net com um link.",
-				"points": [ "Funciona a partir do localhost: o Playground roda no seu navegador", "Qualquer tema ou plugin instalado, premium ou personalizado", "Ou rode offline: npx @wp-playground/cli server --blueprint=site.zip" ],
+				"points": [ "Funciona a partir do localhost: o Playground roda no seu navegador", "Qualquer tema ou plugin instalado, premium ou personalizado", "Ou rode off-line: npx @wp-playground/cli server --blueprint=site.zip" ],
 				"alt": "A janela de opções do Playground: Twenty Twenty-Five escolhido para instalar."
 			},
 			{
@@ -228,7 +228,7 @@
 			{
 				"eyebrow": "Nada se perde",
 				"title": "Cada exportação guardada — por pouco tempo, e longe dos olhos",
-				"text": "Cada exportação fica guardada como uma cópia que você pode baixar de novo, abrir no Playground ou importar de volta. Online, o link funciona como uma senha: um token aleatório que ninguém adivinha. Os buscadores são orientados a ficar longe, o acesso direto à pasta é bloqueado, e uma tarefa do cron apaga a cópia quando o tempo dela acaba.",
+				"text": "Cada exportação fica guardada como uma cópia que você pode baixar de novo, abrir no Playground ou importar de volta. On-line, o link funciona como uma senha: um token aleatório que ninguém adivinha. Os mecanismos de pesquisa são orientados a ficar longe, o acesso direto à pasta é bloqueado, e uma tarefa do cron exclui a cópia quando o tempo dela acaba.",
 				"points": [ "Token aleatório de 16 caracteres em cada link", "robots.txt, noindex e uma pasta trancada", "Expira sozinha — de 1 hora a 1 semana, nas Configurações" ],
 				"alt": "Configurações → Exporter Importer Z → Cópias: um pacote .wxrz, um pacote .zip e um .zip do Playground, com tamanhos e datas de validade."
 			}
@@ -242,7 +242,7 @@
 		"objections": [
 			{ "question": "É gratuito mesmo?", "answer": "Sim. Gratuito e de código aberto, sob a GPL, sem conta, sem chave de licença e sem versão paga segurando recursos." },
 			{ "question": "Ele sobrescreve o site para onde eu importo?", "answer": "Não. Ele importa com o Importador do WordPress, que acrescenta o conteúdo ao site. Só as configurações que você escolheu exportar são aplicadas." },
-			{ "question": "O site antigo precisa estar no ar?", "answer": "Não. Os arquivos de mídia viajam dentro do pacote, então o importador nunca baixa nada do site antigo." },
+			{ "question": "O site antigo precisa estar on-line?", "answer": "Não. Os arquivos de mídia viajam dentro do pacote, então o importador nunca baixa nada do site antigo." },
 			{ "question": "E as minhas configurações privadas?", "answer": "URLs do site, o e-mail do administrador, chaves e salts, usuários e funções, plugins ativos, transients e caches nunca são exportados — não importa o que você escolha." },
 			{ "question": "Preciso do plugin no outro site?", "answer": "Para importar um pacote, sim (mais o Importador do WordPress, gratuito). Exportações .xml simples importam em qualquer lugar, como sempre." }
 		],
@@ -260,11 +260,11 @@
 			"columns": [ "Migração do site inteiro", "Exportação do WordPress", "Exporter Importer Z" ],
 			"rows": [
 				{ "label": "O que vai", "cells": [ "O banco de dados inteiro e todos os arquivos", "Um tipo de conteúdo, ou tudo", "O que você escolhe, e aquilo de que ele depende" ] },
-				{ "label": "Sobras", "cells": [ "Transients, logs, sessões, tabelas de plugins antigos, spam", "Nenhuma", "Nenhuma: nunca transients, chaves ou caches" ] },
+				{ "label": "Sobras", "cells": [ "Transients, registros, sessões, tabelas de plugins antigos, spam", "Nenhuma", "Nenhuma: nunca transients, chaves ou caches" ] },
 				{ "label": "Arquivos de mídia", "cells": [ "Todos", "Fora do arquivo — baixados do site antigo", "Só a mídia dos itens, dentro do arquivo" ] },
 				{ "label": "Mídia usada no conteúdo", "cells": [ "Sim, junto com todo o resto", "Só a anexada e a destacada", "Sim, anexada ou não" ] },
-				{ "label": "Configurações", "cells": [ "Todas, inclusive as URLs e os usuários do site", "Nenhuma", "As que você escolhe; página inicial, loja… seguem suas páginas" ] },
-				{ "label": "IDs e URLs", "cells": [ "Buscar e substituir depois", "Posts remapeados; configurações perdidas", "Posts e configurações remapeados na importação" ] },
+				{ "label": "Configurações", "cells": [ "Todas, inclusive os URLs e os usuários do site", "Nenhuma", "As que você escolhe; página inicial, loja… seguem suas páginas" ] },
+				{ "label": "IDs e URLs", "cells": [ "Pesquisar e substituir depois", "Posts remapeados; configurações perdidas", "Posts e configurações remapeados na importação" ] },
 				{ "label": "Site de destino", "cells": [ "Sobrescrito", "Somado", "Somado" ] }
 			]
 		},
@@ -280,7 +280,7 @@
 			"chat": [
 				{ "who": "Você", "text": "Exporte a página inicial com as imagens e as configurações básicas como .zip e me passe o link." },
 				{ "who": "Agente", "text": "Encontrei “Home” (ID 43) — é a página inicial." },
-				{ "who": "Agente", "text": "Pronto: home.zip (31 KB) com a página, 3 imagens, a configuração da página inicial e as Básicas. O link expira em um dia." }
+				{ "who": "Agente", "text": "Concluído: home.zip (31 KB) com a página, 3 imagens, a configuração da página inicial e as Básicas. O link expira em um dia." }
 			]
 		}
 	},
@@ -302,7 +302,7 @@
 		"other": "Outras formas de ajudar",
 		"ways": [
 			{ "title": "Dê uma estrela no GitHub", "text": "Estrelas ajudam outras pessoas a encontrá-lo." },
-			{ "title": "Relate o que quebrar", "text": "Uma issue clara vale mais que um pedido de recurso." },
+			{ "title": "Relate o que quebrar", "text": "Uma issue clara vale mais que uma solicitação de recurso." },
 			{ "title": "Melhore a documentação", "text": "Cada página tem um link “Editar esta página no GitHub”." },
 			{ "title": "Conte para alguém", "text": "A próxima pessoa que for levar um site WordPress vai agradecer." }
 		],

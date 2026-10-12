@@ -4,7 +4,7 @@ description: "A nova tela Ferramentas → Exportar, parte por parte: a lista, os
 translatedFrom: "3a67fd83eec60da9d979d8b0478da0fa6693c408"
 ---
 
-Ferramentas → Exportar abre uma tela construída como as telas mais novas do painel do WordPress (DataViews e DataForm, sobre o framework de telas do painel do core). Ela usa as [abilities](../../developers/abilities/) do plugin, então a tela, a REST e os agentes de IA exportam do mesmo jeito.
+Ferramentas → Exportar abre uma tela construída como as telas mais novas do painel do WordPress (DataViews e DataForm, sobre o framework de telas do painel do core). Ela usa as [habilidades](../../developers/abilities/) do plugin, então a tela, a REST e os agentes de IA exportam do mesmo jeito.
 
 ![A tela Exportar com Páginas (1 item), Produtos (filtrado) e Opções (Página inicial + Básicas) marcados.](../../../assets/screenshots/export-screen.webp)
 

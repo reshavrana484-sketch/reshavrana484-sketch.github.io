@@ -32,7 +32,7 @@ Importar exige o **Importador do WordPress**. Em **Ferramentas → Importar**, c
 | PHP 7.4+ | O mínimo do plugin. |
 | `zlib` | Os pacotes `.wxrz` são arquivos tar compactados com gzip. |
 | `ZipArchive` (ou PclZip) | Pacotes `.zip` e arquivos `.zip` do Playground. O PclZip do core é a alternativa. |
-| Abilities API | Faz parte do WordPress 6.9+; as telas usam as abilities do plugin. |
+| Abilities API | Faz parte do WordPress 6.9+; as telas usam as habilidades do plugin. |
 
 ## Desinstalação
 

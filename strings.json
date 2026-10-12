@@ -42,7 +42,7 @@
 		"button": "Para agentes",
 		"install": "Copiar o comando de instalação do WP-CLI",
 		"llms": "Copiar a URL do llms.txt",
-		"docs": "Documentação para agentes de IA: abilities por MCP",
+		"docs": "Documentação para agentes de IA: habilidades por MCP",
 		"full": "Toda a documentação num arquivo só",
 		"chatgpt": "Perguntar ao ChatGPT",
 		"claude": "Perguntar ao Claude",
@@ -78,7 +78,7 @@
 		},
 		"home": {
 			"title": "Documentação",
-			"description": "Tudo sobre o Exporter Importer Z: exportação, formatos, importação, configurações, e as abilities, os hooks e o comando WP-CLI para desenvolvedores.",
+			"description": "Tudo sobre o Exporter Importer Z: exportação, formatos, importação, configurações, e as habilidades, os hooks e o comando WP-CLI para desenvolvedores.",
 			"eyebrow": "Documentação",
 			"heading": "Documentação do Exporter Importer Z",
 			"lead": "Como a tela Exportar funciona, o que vai em cada formato de arquivo, como a importação põe tudo de volta no lugar, e como controlar tudo pelo código.",
@@ -142,10 +142,10 @@
 		"devs": {
 			"eyebrow": "Para desenvolvedores e agentes de IA",
 			"title": "Automatize cada exportação e importação",
-			"lead": "Cada passo é uma ability da Abilities API do WordPress: chame por REST, pelo PHP ou pelo WP-CLI, ou entregue a um agente de IA por MCP. O seu plugin pode registrar as próprias páginas, configurações e mídia por meio de hooks.",
+			"lead": "Cada passo é uma habilidade da Abilities API do WordPress: chame por REST, pelo PHP ou pelo WP-CLI, ou entregue a um agente de IA por MCP. O seu plugin pode registrar as próprias páginas, configurações e mídia por meio de hooks.",
 			"rest": "Exportar uma página como pacote .zip, por REST",
 			"hook": "Dar um papel à página do seu plugin",
-			"abilities": "12 abilities",
+			"abilities": "12 habilidades",
 			"hooks": "10 hooks",
 			"compatibilities": "Compatibilidades",
 			"wpcli": "WP-CLI"
@@ -270,9 +270,9 @@
 		},
 		"agent": {
 			"title": "Feito para agentes de IA, não remendado depois",
-			"text": "Cada exportação, importação, cópia e configuração é uma ability da Abilities API do WordPress — entrada tipada, saída tipada, permissões e avisos de segurança. Conecte um agente por MCP e peça com palavras simples; ou chame as mesmas abilities por REST, PHP e WP-CLI.",
+			"text": "Cada exportação, importação, cópia e configuração é uma habilidade da Abilities API do WordPress — entrada tipada, saída tipada, permissões e avisos de segurança. Conecte um agente por MCP e peça com palavras simples; ou chame as mesmas habilidades por REST, PHP e WP-CLI.",
 			"points": [
-				"12 abilities com esquemas JSON que um agente consegue ler",
+				"12 habilidades com esquemas JSON que um agente consegue ler",
 				"Ações só de leitura e destrutivas sinalizadas para o agente",
 				"As permissões são as do WordPress: export, import, manage_options",
 				"Documentação para agentes também: llms.txt e cada página em Markdown"

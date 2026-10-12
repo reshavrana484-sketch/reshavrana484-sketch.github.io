@@ -23,4 +23,4 @@ Com **Configurações → Exportar → Conteúdo como arquivos .html** (ativado 
 
 ## Cópias
 
-Cada exportação feita na nova tela ou pela ability fica guardada como uma **cópia** por um tempo (um dia, por padrão), com um nome impossível de adivinhar, e listada em [Configurações → Cópias](../../settings/copies/).
+Cada exportação feita na nova tela ou pela habilidade fica guardada como uma **cópia** por um tempo (um dia, por padrão), com um nome impossível de adivinhar, e listada em [Configurações → Cópias](../../settings/copies/).

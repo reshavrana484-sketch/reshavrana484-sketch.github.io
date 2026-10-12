@@ -1,18 +1,18 @@
 ---
 title: "Agentes de IA"
-description: "Deixe um agente de IA exportar, importar e gerenciar cópias por você: as abilities via MCP, o que pedir, o que o agente vê e a segurança embutida."
+description: "Deixe um agente de IA exportar, importar e gerenciar cópias por você: as habilidades via MCP, o que pedir, o que o agente vê e a segurança embutida."
 translatedFrom: "3a67fd83eec60da9d979d8b0478da0fa6693c408"
 ---
 
-O Exporter Importer Z é **pensado para agentes**: tudo o que as telas fazem é uma [ability](../abilities/) da Abilities API do WordPress — uma ação com nome, um JSON Schema para a entrada e a saída, uma verificação de permissão e indicações se ela só lê ou se exclui. É exatamente o que um agente de IA precisa para agir num site com segurança, sem raspar telas.
+O Exporter Importer Z é **pensado para agentes**: tudo o que as telas fazem é uma [habilidade](../abilities/) da Abilities API do WordPress — uma ação com nome, um JSON Schema para a entrada e a saída, uma verificação de permissão e indicações se ela só lê ou se exclui. É exatamente o que um agente de IA precisa para agir num site com segurança, sem raspar telas.
 
 ## Conecte um agente
 
-1. Instale o [MCP Adapter](https://github.com/WordPress/mcp-adapter) no site. Ele expõe as abilities como **ferramentas MCP**.
+1. Instale o [MCP Adapter](https://github.com/WordPress/mcp-adapter) no site. Ele expõe as habilidades como **ferramentas MCP**.
 2. Conecte seu cliente MCP (um assistente de IA, um agente de IDE, um agente de linha de comando) ao site como descrito na documentação do adaptador, com um usuário que possa exportar (e importar, se o agente for importar).
 3. Peça em palavras simples. O agente lista as ferramentas `eizport/*`, lê os esquemas e as chama.
 
-Num site local do [WordPress Studio](https://developer.wordpress.com/studio/), o próprio servidor MCP do Studio pode executar as mesmas abilities pela ferramenta `wp_cli` (`wp eval`, veja [WP-CLI](../wp-cli/)).
+Num site local do [WordPress Studio](https://developer.wordpress.com/studio/), o próprio servidor MCP do Studio pode executar as mesmas habilidades pela ferramenta `wp_cli` (`wp eval`, veja [WP-CLI](../wp-cli/)).
 
 ## O que pedir
 

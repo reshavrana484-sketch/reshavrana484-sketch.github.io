@@ -1,10 +1,10 @@
 ---
-title: "Abilities"
-description: "Cada ability eizport/* da Abilities API do WordPress — entrada, saída, permissão — por REST, PHP e MCP."
+title: "Habilidades"
+description: "Cada habilidade eizport/* da Abilities API do WordPress — entrada, saída, permissão — por REST, PHP e MCP."
 translatedFrom: "3a67fd83eec60da9d979d8b0478da0fa6693c408"
 ---
 
-Tudo o que as telas fazem é uma **ability** da [Abilities API](https://developer.wordpress.org/apis/abilities/) (WordPress 6.9+), na categoria `exporter-importer-z`. As telas Exportar e Configurações também as chamam, então código, agentes de IA e a interface seguem o mesmo caminho.
+Tudo o que as telas fazem é uma **habilidade** da [Abilities API](https://developer.wordpress.org/apis/abilities/) (WordPress 6.9+), na categoria `exporter-importer-z`. As telas Exportar e Configurações também as chamam, então código, agentes de IA e a interface seguem o mesmo caminho.
 
 ## Como chamá-las
 
@@ -17,7 +17,7 @@ curl -u admin:APP_PASSWORD -X POST \
   -d '{"input":{"types":{"page":{"ids":[43]}},"options":{"groups":["basics"]}}}'
 ```
 
-Abilities somente leitura rodam com `GET` e a entrada na query string.
+Habilidades somente leitura rodam com `GET` e a entrada na query string.
 
 **PHP**:
 
@@ -33,13 +33,13 @@ if ( ! is_wp_error( $copy ) ) {
 }
 ```
 
-**MCP**: com o [MCP adapter](https://github.com/WordPress/mcp-adapter), cada ability é uma ferramenta que um agente de IA pode chamar.
+**MCP**: com o [MCP adapter](https://github.com/WordPress/mcp-adapter), cada habilidade é uma ferramenta que um agente de IA pode chamar.
 
 > Roda uma exportação por requisição: `export_wp()` define suas funções auxiliares dentro de si mesma. Uma segunda `eizport/export` na mesma requisição retorna `eizport_export_unavailable`.
 
 ## Visão geral
 
-| Ability | Faz | Permissão | Anotações |
+| Habilidade | Faz | Permissão | Anotações |
 | --- | --- | --- | --- |
 | `eizport/get-export-options` | O que pode ser exportado | `export` | readonly |
 | `eizport/get-items` | Uma página dos itens de um tipo | `export` | readonly |

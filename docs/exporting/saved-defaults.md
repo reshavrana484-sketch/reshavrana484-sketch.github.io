@@ -20,7 +20,7 @@ translatedFrom: "3a67fd83eec60da9d979d8b0478da0fa6693c408"
 
 ## Limpar
 
-*Limpar padrões salvos* em Configurações → Geral, ou a ability [`eizport/clear-export-defaults`](../../developers/abilities/#defaults).
+*Limpar padrões salvos* em Configurações → Geral, ou a habilidade [`eizport/clear-export-defaults`](../../developers/abilities/#defaults).
 
 ## O que é verificado
 

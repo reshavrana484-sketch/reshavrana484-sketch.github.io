@@ -1,6 +1,8 @@
 # Glossário pt-BR
 
-Os termos usados na tradução do site, da documentação e (na fase 2) do próprio plugin (`languages/exporter-importer-z-pt_BR.po`). O mesmo texto da interface tem de aparecer igual nos três lugares.
+**A referência é o [glossário da comunidade WordPress Brasil](https://translate.wordpress.org/locale/pt-br/default/glossary/)** (translate.wordpress.org; em CSV: https://translate.wordpress.org/locale/pt-br/default/glossary/-export/). Todo termo que está lá se usa como está lá — por exemplo *ability* → **habilidade**, *child theme* → **tema descendente**, *parent theme* → **tema ascendente**, *checkout* → **finalização de compra**, *upload* → **enviar**, *default* → **padrão**.
+
+Este arquivo só complementa: os textos da interface do plugin e os termos que o glossário da comunidade não tem. Valem no site, na documentação e no plugin (`languages/exporter-importer-z-pt_BR.po`): o mesmo texto da interface tem de aparecer igual nos três lugares.
 
 ## WordPress (como o WordPress em português já traduz)
 
@@ -18,7 +20,7 @@ Os termos usados na tradução do site, da documentação e (na fase 2) do próp
 | site title / tagline | título do site / descrição |
 | site icon | ícone do site |
 | menu, widget | menu, widget |
-| theme / child theme / parent theme | tema / tema filho / tema ascendente |
+| theme / child theme / parent theme | tema / tema descendente / tema ascendente |
 | plugin | plugin |
 | user / role | usuário / função |
 | draft / pending / private / published / scheduled / trash | rascunho / pendente / privado / publicado / agendado / lixeira |
@@ -107,7 +109,7 @@ Os termos usados na tradução do site, da documentação e (na fase 2) do próp
 | application password | senha de aplicativo |
 | badge | selo |
 | read-only / destructive / idempotent (MCP) | somente leitura / destrutiva / idempotente |
-| ability / abilities (Abilities API) | ability / abilities (Abilities API) — termo da API, não se traduz |
+| ability / abilities | habilidade / habilidades (glossário da comunidade); o nome da API fica **Abilities API**, e os nomes no código (`eizport/export`) não mudam |
 | AI agent | agente de IA |
 | MCP, REST, WP-CLI, PHP, JSON | iguais |
 

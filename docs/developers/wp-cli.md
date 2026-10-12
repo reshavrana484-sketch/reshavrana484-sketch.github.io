@@ -1,6 +1,6 @@
 ---
 title: "WP-CLI"
-description: "Importe pacotes pela linha de comando com wp eizport import e rode as abilities com wp eval."
+description: "Importe pacotes pela linha de comando com wp eizport import e rode as habilidades com wp eval."
 translatedFrom: "3a67fd83eec60da9d979d8b0478da0fa6693c408"
 ---
 
@@ -21,7 +21,7 @@ Ele precisa do plugin Importador do WordPress instalado (não precisa estar ativ
 
 ## Exportar pela linha de comando
 
-Rode a ability [`eizport/export`](../abilities/#eizportexport):
+Rode a habilidade [`eizport/export`](../abilities/#eizportexport):
 
 ```bash
 wp eval '
@@ -36,6 +36,6 @@ echo is_wp_error( $copy ) ? $copy->get_error_message() : $copy["download_url"];
 
 A cópia fica em `wp-content/uploads/eizport/tmp/`; uma exportação por processo `wp`.
 
-## Outras abilities
+## Outras habilidades
 
-Qualquer ability funciona do mesmo jeito: `wp_get_ability( 'eizport/get-copies' )->execute()`, `wp_get_ability( 'eizport/delete-copies' )->execute( array( 'all' => true ) )`…
+Qualquer habilidade funciona do mesmo jeito: `wp_get_ability( 'eizport/get-copies' )->execute()`, `wp_get_ability( 'eizport/delete-copies' )->execute( array( 'all' => true ) )`…

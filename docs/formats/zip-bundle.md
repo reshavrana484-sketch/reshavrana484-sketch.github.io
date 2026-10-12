@@ -12,7 +12,7 @@ Um `.zip` abre com um clique duplo em qualquer computador; o `.wxrz` precisa de 
 
 ## Por exportação
 
-A configuração é o padrão. A ability [`eizport/export`](../../developers/abilities/#eizportexport) aceita `zip: true` ou `zip: false` para uma exportação.
+A configuração é o padrão. A habilidade [`eizport/export`](../../developers/abilities/#eizportexport) aceita `zip: true` ou `zip: false` para uma exportação.
 
 ## Como é gravado e lido
 

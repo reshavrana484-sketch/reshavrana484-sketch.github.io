@@ -18,7 +18,7 @@ O Exporter Importer Z leva conteúdo do WordPress de um site para outro **com tu
 | As configurações ficam para trás | As **opções** vão junto: por grupos, uma a uma ou todas — e as que apontam para itens exportados (página inicial, loja…) são mapeadas para os novos IDs |
 | Conteúdo dentro do XML | O conteúdo de cada post como `post_content/<slug>.html` |
 | — | Um `.zip` do **WordPress Playground** que inicia um site com o conteúdo, o tema e os plugins |
-| — | Cada etapa como uma **ability** (Abilities API, REST, MCP) e um comando **WP-CLI** |
+| — | Cada etapa como uma **habilidade** (Abilities API, REST, MCP) e um comando **WP-CLI** |
 
 ## Não é uma migração completa — de propósito
 
@@ -39,7 +39,7 @@ Tools → Export ──► eizport/export ──► .wxrz / .zip / .xml / Playgr
 Tools → Import → WordPress ◄──────────────┘  (or eizport/import, or wp eizport import)
 ```
 
-- **A exportação** acontece na nova tela Exportar (ou na clássica, se você preferir) e pela ability `eizport/export`. As duas rodam o mesmo código: `export_wp()` com uma consulta restrita, mais o pacote em volta.
+- **A exportação** acontece na nova tela Exportar (ou na clássica, se você preferir) e pela habilidade `eizport/export`. As duas rodam o mesmo código: `export_wp()` com uma consulta restrita, mais o pacote em volta.
 - **A importação** usa o Importador do WordPress. O plugin desempacota o pacote primeiro, responde a partir dele aos downloads de mídia do importador, devolve os conteúdos `.html` ao WXR e define as opções quando a importação termina.
 
 ## Requisitos
@@ -51,4 +51,4 @@ Tools → Import → WordPress ◄──────────────┘ 
 ## Próximos passos
 
 - [Instale o plugin](../installation/) e [faça sua primeira exportação](../your-first-export/).
-- Conheça a [tela Exportar](../../exporting/export-screen/) ou vá direto aos [formatos de arquivo](../../formats/wxrz-bundle/) e às [abilities](../../developers/abilities/).
+- Conheça a [tela Exportar](../../exporting/export-screen/) ou vá direto aos [formatos de arquivo](../../formats/wxrz-bundle/) e às [habilidades](../../developers/abilities/).

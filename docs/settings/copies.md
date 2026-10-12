@@ -6,7 +6,7 @@ translatedFrom: "3a67fd83eec60da9d979d8b0478da0fa6693c408"
 
 ![Configurações → Exporter Importer Z → Cópias: um .wxrz, um pacote .zip e um .zip do Playground.](../../../assets/screenshots/settings-copies.webp)
 
-Toda exportação feita pela nova tela ou pela ability é guardada como cópia em `wp-content/uploads/eizport/tmp/`, listada como na biblioteca de mídia: busca, ordenação, filtro por formato.
+Toda exportação feita pela nova tela ou pela habilidade é guardada como cópia em `wp-content/uploads/eizport/tmp/`, listada como na biblioteca de mídia: busca, ordenação, filtro por formato.
 
 ## Ações
 

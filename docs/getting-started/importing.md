@@ -24,7 +24,7 @@ As cópias feitas pela tela Exportar ficam listadas em **Configurações → Exp
 
 ## Com código
 
-- A ability [`eizport/import`](../../developers/abilities/#eizportimport) importa uma `copy` ou um `attachment_id` (um `.wxrz`, `.zip` ou `.xml` na biblioteca de mídia).
+- A habilidade [`eizport/import`](../../developers/abilities/#eizportimport) importa uma `copy` ou um `attachment_id` (um `.wxrz`, `.zip` ou `.xml` na biblioteca de mídia).
 - [`wp eizport import <file>`](../../developers/wp-cli/) faz isso pela linha de comando.
 
 ## O que é remapeado
